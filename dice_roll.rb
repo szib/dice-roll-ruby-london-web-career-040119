@@ -5,5 +5,5 @@
 def roll
   rnd = Random.new
   # rnd.rand(1..6)
-  [1,2,3,4,5,6][rnd 0..5]
+  [1,2,3,4,5,6][rnd.rand 0..5]
 end
